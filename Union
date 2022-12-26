@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+N = int(input())
+n_elem = set(map(int,input().split()))
+B = int(input())
+b_elem = set(map(int,input().split()))
+
+print(len(n_elem.union(b_elem)))
